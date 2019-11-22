@@ -1,0 +1,82 @@
+
+html,body {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    font-size: 1.3em;
+}
+.layout {
+    width: 100vw;
+    /* padding-bottom: 5px; */
+    margin: 1px 0;
+}
+*{margin: 0;}
+aside section{
+    margin: 0;
+    padding: 10px 0;
+}
+
+main .line{
+    margin: 5px 0;
+}
+main section:not(:last-of-type),
+main section:last-of-type{
+    margin: 6.5px 0 0 20px;
+}
+
+main section .skill h2{
+    padding:0;
+}
+aside section h2,
+main section h2{
+    padding: 2px 0;
+}
+.skills .item{
+    padding: 2px;
+}
+.skills .item .keyword{
+    padding: 0;
+}
+.personal .item span:first-child{
+    width: 40px;
+}
+.personal .item span:last-child::before{
+    padding-right: 11px;
+}
+
+aside section .item{
+    padding: 0px;
+}
+.personal .item span:first-child{
+    width: 56px;
+}
+
+/* header */
+header{
+    /* padding: 15px 0 15px  228px; */
+    padding-top: 0;
+    padding: 0;
+    border-bottom: 1.5px solid #ccc;
+    text-align: left;
+}
+
+header h1,header p{
+    display: inline-block;
+
+}
+header h1{
+    margin-right: 205px;
+}
+
+header .resume-link {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    display: block;
+}
+
+main .item img {
+    display: none;
+}
