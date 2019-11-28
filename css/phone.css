@@ -199,3 +199,6 @@ footer {
     text-align: center;
     width: 100%;
 }
+.resume-link{
+    display: none;
+}

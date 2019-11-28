@@ -80,3 +80,6 @@ header .resume-link {
 main .item img {
     display: none;
 }
+.resume-link{
+    display: none;
+}    

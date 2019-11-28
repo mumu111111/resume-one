@@ -110,7 +110,7 @@ section .item {
 }
 
 .personal .item span:first-child {
-    width: 70px;
+    width: 41px;
     display: inline-block;
 }
 
@@ -149,7 +149,7 @@ section .item {
 }
 
 .contact .item span {
-    padding-left: 10px;
+    padding-left: 6px;
 }
 
 .more .item {
@@ -219,4 +219,16 @@ footer {
     background: rgb(64, 64, 65);
     text-align: center;
     width: 100%;
+}
+
+.layout .resume-link{
+    border: 1px solid #988c8c;
+    width: 170px;
+    text-align: center;
+    position: fixed;
+    top: 38px;
+    left: -27px;
+    transform: translate(0%,-50%);
+    transform: rotate(-41deg);
+    z-index: 100;
 }
